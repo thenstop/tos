@@ -19,9 +19,7 @@ modules:
       - plasma-welcome-fedora
       - plasma-welcome
       - plasma-discover
-      - plasma-oxygen
       - plasma-pass
-      - ocean-sound-theme
       - krfb
       - krfb-libs
       - ublue-os-update-services
