@@ -18,6 +18,10 @@ modules:
       - firefox-langpacks
       - plasma-welcome-fedora
       - plasma-welcome
+      - plasma-discover
+      - plasma-oxygen
+      - plasma-pass
+      - ocean-sound-theme
       - krfb
       - krfb-libs
       - ublue-os-update-services
@@ -34,5 +38,6 @@ modules:
         - com.lunarclient.LunarClient
       remove:
         - org.mozilla.Thunderbird
+        - io.github.flattool.Warehouse
 
   - type: signing
