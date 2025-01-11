@@ -20,7 +20,6 @@ modules:
       - plasma-welcome
       - krfb
       - krfb-libs
-      - podman-docker
       - ublue-os-update-services
 
   - type: akmods
