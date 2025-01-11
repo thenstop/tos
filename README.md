@@ -4,7 +4,7 @@ This is a Blue-OS Fedora Kionite image with a few modifications for gaming
 
 - Removed Applications
   - Remove Firefox and Thunderbird
-  - Remove Plasma Welcome and Discover
+  - Remove Plasma Welcome
   - Remove Warehouse for Flatpak
 
 - Added Applications
@@ -21,6 +21,7 @@ This is a Blue-OS Fedora Kionite image with a few modifications for gaming
     - Achieved with both environment variables and [drirc](https://wiki.archlinux.org/title/Gaming#Reducing_DRI_latency)
   - Use [Arch Linux Latency Parameters](https://wiki.archlinux.org/title/Gaming#Make_the_changes_permanent) for achieving lower input latency
   - Use [Cake Smart Queue Management](https://wiki.archlinux.org/title/Gaming#Reduce_buffer_bloat_on_the_network)
+  - Use [Optimized TCP Keep Alive and Recieve Window parameters](https://wiki.archlinux.org/title/Sysctl#Networking)
 
 ## Installation
 
