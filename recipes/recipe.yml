@@ -30,7 +30,6 @@ modules:
     system:
       install:
         - com.brave.Browser
-        - io.github.spacingbat3.webcord
         - com.lunarclient.LunarClient
       remove:
         - org.mozilla.Thunderbird
