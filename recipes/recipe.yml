@@ -28,8 +28,7 @@ modules:
       - distrobox # i personally only need flatpak applications
   
   - type: akmods
-    install:
-      - wl
+    install: wl
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
