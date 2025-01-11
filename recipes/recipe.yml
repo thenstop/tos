@@ -19,6 +19,7 @@ modules:
       - plasma-welcome-fedora
       - plasma-welcome
       - plasma-discover
+      - plasma-discover-notifier
       - krfb
       - krfb-libs
       - ublue-os-update-services
