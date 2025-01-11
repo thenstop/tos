@@ -30,7 +30,7 @@ modules:
     system:
       install:
         - com.brave.Browser
-        - dev.vencord.Vesktop
+        - io.github.spacingbat3.webcord
         - com.lunarclient.LunarClient
       remove:
         - org.mozilla.Thunderbird
