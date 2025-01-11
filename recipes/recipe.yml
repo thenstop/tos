@@ -7,7 +7,7 @@ description: Fedora Kionite with my personal tweaks and modifications.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: latest # latest is also supported if you want new updates ASAP
+image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -19,8 +19,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://raw.githubusercontent.com/rpmfusion/rpmfusion-free-release/refs/heads/master/rpmfusion-free.repo
+      - https://raw.githubusercontent.com/rpmfusion/rpmfusion-nonfree-release/refs/heads/master/rpmfusion-nonfree.repo
     install:
       - broadcom-wl
     remove:
