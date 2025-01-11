@@ -29,7 +29,6 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - distrobox # i personally only need flatpak applications
-      - sonaar # not sure why this is installed by default on bluefin (not sure if its on kionite)
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
