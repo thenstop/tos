@@ -18,17 +18,18 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
-    repos:
-      - https://raw.githubusercontent.com/rpmfusion/rpmfusion-free-release/refs/heads/master/rpmfusion-free.repo
-      - https://raw.githubusercontent.com/rpmfusion/rpmfusion-nonfree-release/refs/heads/master/rpmfusion-nonfree.repo
-    install:
-      - broadcom-wl
+    repos: {}
+    install: {}
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - distrobox # i personally only need flatpak applications
+  
+  - type: akmods
+    install:
+      - wl
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
