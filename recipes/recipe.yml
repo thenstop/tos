@@ -25,10 +25,10 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      - distrobox # i personally only need flatpak applications
   
   - type: akmods
-    install: wl
+    install:
+      - wl
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
