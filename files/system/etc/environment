@@ -1,0 +1,6 @@
+editor=nano
+
+__GL_SYNC_TO_VBLANK=0
+__GL_ALLOW_UNOFFICIAL_PROTOCOL=1
+__GL_MaxFramesAllowed=16
+__GL_SHADER_DISK_CACHE=1
