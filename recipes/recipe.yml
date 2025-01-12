@@ -15,6 +15,8 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/whitehara/kernel-tkg/repo/fedora-%OS_VERSION%/whitehara-kernel-tkg-fedora-%OS_VERSION%.repo
+    install:
+      - gamemode
     remove:
       - firefox
       - firefox-langpacks
