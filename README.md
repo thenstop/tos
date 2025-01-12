@@ -9,14 +9,11 @@ This is a Blue-OS Fedora Kionite image with a few modifications for gaming
 
 - Added Applications
   - Brave Browser
-  - Vesktop
-  - Lunar Client
+  - Gamemode
 
 - Changes
   - Install closed source WL driver
-    - Personal need for now until I get rid of this Mac
   - Allow hardware debouncing for mice
-    - This helps in games that require fast clicking
   - Change OpenGL settings to force disable VSync
     - Achieved with both environment variables and [drirc](https://wiki.archlinux.org/title/Gaming#Reducing_DRI_latency)
   - Use [Arch Linux Latency Parameters](https://wiki.archlinux.org/title/Gaming#Make_the_changes_permanent) for achieving lower input latency
